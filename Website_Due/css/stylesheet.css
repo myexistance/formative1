@@ -1,0 +1,271 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: center;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/* navigation */
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/* nav link 
+nav a, nav a:visited {
+  color: #fff;
+*/
+
+/* FOOTER */
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: right;
+  width: 28%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #848e95
+}
+
+#multimedia {
+  margin: 5%;
+  padding: 0%;
+  list-style: none;
+}
+
+#multimedia li {
+  float: center;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#multimedia li a p {
+  margin: 25;
+  padding: 40%;
+  font-size: 0.75em;
+  color: #848e95
+}
+
+#transport {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+#transport li {
+  float: center;
+  width: 100%;
+  margin: 2.5%;
+  background-color: black;
+  color: #bdc3c7;
+}
+
+#transport li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #848e95
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: black;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: black;
+  border-color: grey;
+}
+
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+
+a {
+  color: #6ab47b;
+}
+
+nav a, nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: #32673f;
+}
+
+nav a:active {
+    color: yellow;
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 480px) {
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+  
+  #primary {
+    width: 40%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+
+  
+  /*  PAGE: index */
+
+  #gallery li {
+    width: 38%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: right;
+  }
+  
+  
+}
+
+@media screen and (min-width: 800px) {
+
+  /* HEADER */
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+ #logo {
+  text-align: center;
+  margin: 0;
+}
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 60px;
+  }
+
+  
+}
+
